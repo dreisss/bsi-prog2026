@@ -9,10 +9,10 @@ i = 1
 n = "1"
 result = "0"
 
-while int(n) > 0:
+while int(n) >= 0:
     n = input(f"{i}o dígito: ")
 
-    if 0 < int(n) < 10:
+    if 0 <= int(n) < 10:
         result += n
 
         i += 1
